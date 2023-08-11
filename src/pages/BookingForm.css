@@ -1,0 +1,70 @@
+.reservation {
+  margin: 0.5rem 0 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  max-width: 800px; 
+  gap: 20px;
+}
+
+.item label {
+  padding-top: 5px;
+}
+
+.item:last-child {
+  grid-column: 1 / 4;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+
+input,
+select,
+textarea {
+  border-radius: 8px;
+  padding: 0.3rem 1rem;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+button {
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#radioGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#radioGroup div{
+  margin-right: 30px;
+}
+
+#radioGroup label {
+  display: block;
+  text-align: center;
+}
+
+#radioGroup input[type="radio"] {
+  padding: 12px;
+  margin-right: 4px;
+  width: auto;
+}
+
+.chakra-form__error-message {
+  color: red;
+  padding-top: 0;
+}

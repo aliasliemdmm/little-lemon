@@ -1,0 +1,10 @@
+h1 {
+    padding-bottom: 0.2em;
+}
+
+.special-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
